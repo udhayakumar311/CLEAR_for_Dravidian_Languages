@@ -15,7 +15,7 @@ app = Flask(__name__, static_url_path='/static')
 
 def analyze_tamil_text(text):
     # The path to the local git repo for Indic NLP library
-    INDIC_NLP_LIB_HOME=r"C:\Users\Udhaya\indic_nlp_library"
+    INDIC_NLP_LIB_HOME=r"https://github.com/udhayakumar311/CLEAR_for_Dravidian_Languages/tree/master/indic_nlp_library"
     
     # The path to the local git repo for Indic NLP Resources
     INDIC_NLP_RESOURCES=r"C:\Users\Udhaya\indic_nlp_resources-master"
@@ -254,7 +254,7 @@ def analyze_tamil_text(text):
 def analyze_malayalam_text(text):
 
     # The path to the local git repo for Indic NLP library
-    INDIC_NLP_LIB_HOME=r"C:\Users\Udhaya\indic_nlp_library"
+    INDIC_NLP_LIB_HOME=r"https://github.com/udhayakumar311/CLEAR_for_Dravidian_Languages/tree/master/indic_nlp_library"
     
     # The path to the local git repo for Indic NLP Resources
     INDIC_NLP_RESOURCES=r"C:\Users\Udhaya\indic_nlp_resources-master"
@@ -406,7 +406,7 @@ def analyze_malayalam_text(text):
 def analyze_telugu_text(text):
 
     # The path to the local git repo for Indic NLP library
-    INDIC_NLP_LIB_HOME=r"C:\Users\Udhaya\indic_nlp_library"
+    INDIC_NLP_LIB_HOME=r"https://github.com/udhayakumar311/CLEAR_for_Dravidian_Languages/tree/master/indic_nlp_library"
     
     # The path to the local git repo for Indic NLP Resources
     INDIC_NLP_RESOURCES=r"C:\Users\Udhaya\indic_nlp_resources-master"
